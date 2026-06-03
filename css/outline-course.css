@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #333;
+}
+
+.course-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.course-title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.course-outline {
+    list-style: none;
+}
+
+.chapter {
+    margin-bottom: 32px;
+}
+
+.chapter-title {
+
+    position: sticky;
+    top: 15px;
+
+    padding: 18px 24px;
+
+    background: #ffffff;
+
+    border-left: 5px solid #2563eb;
+    border-radius: 14px;
+
+    font-size: 22px;
+    font-weight: 700;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+    z-index: 10;
+}
+
+.lesson-list {
+    list-style: none;
+    margin-top: 18px;
+    padding-left: 0;
+}
+
+.lesson-list li:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.lesson-list a {
+
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 18px 22px;
+
+    text-decoration: none;
+    color: #374151;
+
+    background: #fff;
+
+    border-radius: 12px;
+
+    border: 1px solid #e5e7eb;
+
+    transition:
+        background .3s ease,
+        transform .3s ease,
+        color .3s ease,
+        box-shadow .3s ease;
+}
+
+.lesson-list a:hover {
+
+    background: #2563eb;
+    color: #fff;
+
+    transform: translateX(8px);
+
+    box-shadow: 0 8px 24px rgba(37, 99, 235, .22);
+}
+
+.lesson-list i {
+    font-size: 18px;
+    flex-shrink: 0;
+}
